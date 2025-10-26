@@ -14,11 +14,9 @@ let package = Package(
     targets: [
         .target(
             name: "CCBottomRefreshControl",
-            path: "CCBottomRefreshControl/CCBottomRefreshControl",
-            publicHeadersPath: ".",
-            cSettings: [
-                .headerSearchPath(".")
-            ]
+            path: "CCBottomRefreshControl",
+            publicHeadersPath: "."
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
